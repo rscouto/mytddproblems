@@ -156,6 +156,18 @@ namespace TddProblems.Tests.RomanNumbers
         }
 
         [Test]
+        public void Given_Roman_Number_VII_When_Call_Conversion_ToInt_Should_Return_7()
+        {
+            // Arrange 
+
+            // Act
+            int actual = RomanNumber.ToInt("VII");
+
+            // Assert
+            Assert.AreEqual(7, actual);
+        }
+
+        [Test]
         public void Given_Roman_Number_IV_When_Call_Conversion_ToInt_Should_Return_4()
         {
             // Arrange 

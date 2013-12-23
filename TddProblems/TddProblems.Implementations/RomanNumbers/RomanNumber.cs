@@ -8,7 +8,12 @@ namespace TddProblems.Implementations.RomanNumbers
 {
     public static class RomanNumber
     {
-
+        /// <summary>
+        /// Convert the string representation of Roman Number to interger number
+        /// </summary>
+        /// <param name="romanNumber">number in string representation</param>
+        /// <returns>romain number converted</returns>
+        /// <exception cref="System.ArgumentException">ArgumentExceprion</exception>
         public static int ToInt(string romanNumber)
         {
             var number = 0;
